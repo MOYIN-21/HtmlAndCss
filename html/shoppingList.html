@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/shoppingList.js" defer></script>
+    <link rel="stylesheet" href="../css/shoppingList.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SHOPPING LIST</h1>
+    <table>
+        <head>
+            <tr>
+                <th>Items</th>
+                <th>Price</th>
+            </tr>
+        </head>
+    </table>
+    <tr>
+        <td><input type="text" id="Items"/></td>
+        <td><input type="text" id="price"/></td>
+    </tr>
+    <button onClick="addToCart()">Add</button>
+    <button onclick="removeFromCart()">Remove</button>
+</body>
+</html>

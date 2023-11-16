@@ -1,0 +1,25 @@
+body{
+    background-color: peru;
+}
+
+table, button{
+    text-align: left;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid;
+}
+
+input{
+    width: 55px;
+}
+
+.item{
+    gap: Opx;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: button;
+}

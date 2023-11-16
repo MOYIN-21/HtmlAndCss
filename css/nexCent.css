@@ -1,0 +1,83 @@
+.navContainer{
+
+
+    align-items: center;
+    display: flex;
+    width: 1440px;
+    height: 84px;
+    flex-shrink: 0;
+    background: var(--neutral-silver, #F5F7FA);
+}
+.dev{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0%;
+
+    width: 1440px;
+    height: 84px;
+    flex-shrink: 0;
+    gap: 90px;
+}
+
+
+html, body{
+    margin: 10px;
+    align-items: center;
+}
+
+
+.logoNav{
+    gap: 20px;
+    align-items: baseline;
+    height: 50px;
+    justify-items: center;
+    align-items: center;
+}
+.logo{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    width: 171.49px;
+    height: 70.662px;
+    fill: var(--brand-secondary, #263238);
+}
+.Register{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.loginNav{
+    display: flex;
+}
+
+.Login{
+    border: 5px solid white;
+    background-color: white;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 20px;
+    width: 100px;
+    border-radius: 6px;
+    color: #4CAF4F;
+
+   
+}
+.Signup{
+    border: 5px solid #4CAF4F;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    border-radius: 6px;
+    background: var(--brand-primary, #4CAF4F);
+    color: aliceblue;
+    
+}
